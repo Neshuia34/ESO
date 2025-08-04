@@ -1,3 +1,6 @@
+#Para introducirnos en la UI desde Python elegimos flet.
+#uso de librerias,Librerias UI, porque Flet.
+
 import flet as ft
 
 def main(page: ft.Page):
@@ -66,3 +69,5 @@ def main(page: ft.Page):
 
 if __name__ == "__main__":
     ft.app(target=main)
+    
+#Jugar a modificar valores,entender como funciona y crear los nuevos Bloques.
