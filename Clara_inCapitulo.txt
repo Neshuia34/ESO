@@ -1,0 +1,88 @@
+[cite_start]Según el texto proporcionado, **Clara_in** es el servicio de comunicación interna de la aplicación Clara 100, que funciona como un sistema de mensajería o correo electrónico[cite: 24, 25]. [cite_start]Cada usuario (personajes) de Clara 100, como los profesores (P6) y los alumnos (A4), tiene su propio Clara_in para intercambiar datos[cite: 25, 26, 28].
+
+[cite_start]El servicio permite la comunicación entre los personajes, por ejemplo, cuando un profesor (P01) recibe el resultado de una evaluación, lo procesa y lo envía al Clara_in de otro profesor (P00)[cite: 26]. [cite_start]Este último procesa la información y la sube a la base de datos `B00`, la cual solo puede ser modificada por P00[cite: 26]. [cite_start]De esta manera, los datos se actualizan en tiempo real y están disponibles para todos en modo de solo lectura[cite: 27].
+
+Para organizar este concepto en Python de la forma más básica, podríamos usar algunas de las siguientes opciones para la comunicación interna, basándonos en los conceptos del proyecto:
+
+* **Variables y estructuras de datos:** Se podrían usar listas o diccionarios en Python para simular los "buzones de entrada" de cada personaje (profesor o alumno). Por ejemplo, un diccionario donde las claves sean los identificadores de los personajes (`P01`, `A02`, etc.) y los valores sean listas que contengan los mensajes o datos recibidos.
+* **Módulos de Python:** Se podría utilizar el módulo `pickle` para serializar y deserializar los datos. Esto permitiría guardar y cargar la información de los mensajes en archivos de texto o binarios, simulando el almacenamiento de los datos que se intercambian.
+* **Clases y objetos:** Se podrían crear clases en Python para representar a los personajes (`Profesor`, `Alumno`) y al servicio de comunicación (`Clara_in`). Cada instancia de la clase `Clara_in` podría tener métodos para enviar y recibir mensajes, y cada instancia de `Profesor` o `Alumno` podría tener un atributo para su propio "inbox" o "bandeja de entrada".
+* **Archivos de texto:** Cada buzón de entrada podría ser un archivo de texto simple (`.txt`) donde los nuevos mensajes se añaden al final. Este sería un enfoque muy básico y fácil de entender para comenzar.
+
+[cite_start]Estas opciones permitirían simular el concepto de `Clara_in` de una forma sencilla y paso a paso, como lo propone el proyecto Clara 100[cite: 29].
+
+https://www.youtube.com/watch?v=6Q56r_fVqgw  que es pickle
+
+con este material organiza 'Comunicacion interna en Clara 100'
+opciones, un ejercicio con cada una, elegir la que usara Clara100.
+
+ aqui podemos tener otro capitulo,
+
+hablando de como creamos nuestro personaje en el mundo de Bits'.
+
+
+https://g.co/gemini/share/65872f7173cc  conversacion 08.
+
+
+
+¡Entendido! Vamos a conocer a los profesores del proyecto Clara 100.
+
+---
+
+### **P6, los profesores**
+
+En el mundo de Clara 100, los **P6** son los profesores. [cite_start]Hay uno asignado a cada asignatura, de la P01 a la P06[cite: 15]. Los profesores tienen dos roles principales:
+* [cite_start]**Actualizar B00:** Mantienen la documentación básica de las asignaturas (`B6`) actualizada[cite: 15].
+* [cite_start]**Crear actividades:** Usan el contenido de `B00` para diseñar y crear las actividades que los alumnos deben realizar[cite: 15].
+
+### **P00, el director**
+
+[cite_start]El profesor **P00** es una figura especial y clave en este ecosistema[cite: 16]. [cite_start]Es el director de los profesores P01 a P06[cite: 26]. [cite_start]Su función es crucial porque es el **único** que tiene la capacidad de modificar `B00`, la base de datos central[cite: 27, 26]. [cite_start]Cuando un profesor como `P01` recibe una evaluación, la procesa y la envía al `Clara_in` de `P00`, quien luego la procesa y la sube como un nuevo dato a `B00`, lo que hace que la información esté disponible para todos[cite: 26].
+
+tambien se lo puede ver como el punto de coexion maxima de los P01-06 , cada uno da lo mejor de si, lo comunica a B00, usando Clara_in, y alli los P01-06 analizan los datos y actualizan en B00
+
+Entendido. Vamos a explorar la perspectiva del alumno en el proyecto Clara 100.
+
+### **A4, los alumnos**
+
+En este proyecto, hay cuatro alumnos, de **A01** a **A04**, y tú serás uno de ellos. [cite_start]Cada alumno configura su A01-04, crea su personaje. 
+[cite_start]  organizada en tres directorios
+* [cite_start]**`mi perfil`**: el personaje soy yo. crealo usando python. buen ejercicio y divertido.
+* [cite_start]**`mis tools`**: Aquí se registran los conocimientos y el dominio de las herramientas, esto va enserio. datos reales.
+**`mis actividades`**:Aqui el alumno almacena sus actividades. que descarga de Act.
+
+A00, es la cabina de comandos de la nave alumnos, creada y conducida por los alumnos. tipo un repositorio de github, con su readme y todas nuestras ideas. 
+
+[cite_start]Los profesores (`P6`) utilizan el conocimiento y dominio de herramientas de los alumnos (`mis tools`) para crear las actividades[cite: 17, 18].
+
+### **Act, las actividades**
+
+[cite_start]Las actividades que los profesores crean para los alumnos se organizan en dos directorios[cite: 19]:
+* [cite_start]**`all`**: Contiene todas las actividades[cite: 19].
+* [cite_start]**`new`**: Muestra las actividades más recientes[cite: 19].
+
+los A01-04 descargan desde aqui, a su mis actividades.
+
+
+ejecutar. realizar mejoras y modificar valores para identificar cada parte del codigo, usar Inspector.
+bienvenidos al segundo nivel. maravillas!! ya tenemos un segundo nivel.
+cada uno elige su UI y para familiarizarse con ella vamos a usarla. asi como esta, 
+hagamos algo con lo que tenemos.
+
+crear contenido en B6, el dir Clara100 esta vacio.
+necesitamos subir datos en diferentes formatos, 
+cada tipo de dato a subir necesita de sus herramientas para mostrarlos con exito.
+ usamos un .txt, en ESO-Clara.
+ 
+Clara100 necesita subir videos, audios, enlaces web, esto suena interesante.
+uso de reproductores, y accesorios opensource, 
+incoporar partes de codigo externo, a nuestro codigo. 
+uno de los A crea una pequeña app y los otros A la usan en su codigo. 
+cuando tengamos integrado github sera mas visual. 
+por ahora es importante que entendamos como funciona en nuestro micro mundo Clara 100.
+esto deberia hacerce a travez de los P6 usando Clara_in, pero para usarlo necesitamos datos, asi que alli van!!
+
+
+estos son los datos de las 6 asignaturas para desarrollar clara 100 mi eso-click 
+se almacenan en B6/B01-06/clara100.
+
