@@ -1,5 +1,6 @@
 # ...existing code...
-# Incorporamos contenido en B.6 a partir del .txt.
+# Incorporamos contenido en B.01,..06, carpeta ESO-Clara usando el archivo .txt.
+
 import flet as ft
 
 def main(page: ft.Page):
@@ -21,6 +22,12 @@ def main(page: ft.Page):
     ]
 
     carpetas = ["ESO-Clara", "Clara 100", "Clara 100_in"]
+    # "ESO-Clara" contiene el Programa Oficial de las asignaturas para 3ro Eso. 
+    # "Clara-100" contiene el material para el proyecto Clara 100, que se compone de 6 asignaturas. "Clara_in" contiene los datos que genera el mismo proyecto.
+    #Clara-ESO+Clara 100 contienen el material que el alumno debe usar en el proyecto.
+
+    #Clara_in recibe datos que produce el mismo proyecto, los resultados de las evaluaciones, etc.
+    #comunica al alumno y todo el proyecto con la signatura.
 
     # Contenido real para la carpeta ESO-Clara de cada asignatura (extraído de B.6 asignaturas.txt)
     contenido_eso_clara = {
@@ -247,5 +254,6 @@ if __name__ == "__main__":
     ft.app(target=main)
 
     # Muy bien, ya tenemos la UI.
-    # Ahora creamos contenido en las carpetas desde el '.txt' .
+    # Ahora creamos contenido en las carpetas ESO-Clara desde el '.txt' .
+    # Luego repetimos para las otras carpetas con contenido de ejemplo.
 # ...existing code...  
