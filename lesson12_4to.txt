@@ -1,0 +1,140 @@
+ tu propia app para gestir sus estudios.
+
+así como usamos apps para gestir las diferentes facetas de nuestra vida, 
+para organizar nuestro estudio también usamos apps.
+
+aqui estamos para aprender el contenido Eso 
+dentro de parametros que nosotros crearemos 
+usando python.
+en formato de curso, cada paso para aprender nuevos conceptos , 
+una lecciones. (git).               
+# contexto
+tenemos clara100, 
+Un ambiente divertido para estudiar la Eso.
+el contenido de los 'datos básicos' es 'B6' para 6_asignaturas.
+los profesores; P6, usan B6 para crear 
+'Actividades para los 
+'Alumnos' A4, que aprenden, y muestran sus nuevos conocimientos con 
+Evaluaciones que son reportadas a P6, 
+usando 'Clara_in', que funciona como el servicio de mensajería dentro de Clara 100,
+todos los personaje estan conectados.
+P6, actualiza B6, crea nueva actividades,
+y se repite el bucle, 
+#
+comenzamos lo divertido.
+Leccion_1
+en el dir de nuestro proyecto Clara 100 'Mi eso-click'
+- crear .venv, que es un entorno virtual en python? 'da un nombre al entorno'. 
+Pithon3 -m venv clara-venv, por ejemplo.
+- instalar python 3.12 con pip. que es pip?
+- instalar flet con pip.
+
+crear una UI en python3, usando librerías.
+que son las librerias?.
+opciones de librerias para UI, cual elegimos?
+vamos a usar flet para crear la UI.
+
+listo ahora si
+
+creamos un lienzo vacio 'Clara 100' "Mi 'eso-click'".
+
+add 4 bloques, 
+'cliquebles para mostrar su contenido'. 
+'B6', 'P6', 'A4', 'Act'.
+
+con esta estructura basica aprendemos a crear contenido dentro de Clara100.
+usando python3 y su libreria flet.
+
+# juega a cambiar colores, tamaño, distribucion, diviertete!!
+# elige tu UI y continuamos.
+# podriamos usar git.
+
+Leccion_2
+
+crear contenido dentro de eso bloques.
+
+"nuestra 'base de datos' B6"
+ B6 es la base de datos central del proyecto, donde se almacena y actualiza todo el conocimiento y recursos de las asignaturas.
+crear 7 bloques dentro de B6, B00, B01, ....B06.
+donde B01,....B06, son las asignaturas.
+
+# subir datos a copilot. un .txt, usamos B.6_asignaturas.txt 
+
+
+comenzar a organizar el manejo de los datos
+
+crear dos dir en cada uno.
+dir 'ESO-Clara', 
+dir 'Clara100',
+
+# Dentro de ESO-Clara desplegamos el .txt. Programa oficial por materias
+
+dir 'Clara100',contenido exclusivo "Clara 100".
+material cedido por la escuela para ser usado por el alumno. (los libros)
+
+estos dos dir son todos los datos de "Clara 100". esto es todo lo que tienes que saber.
+ 
+dentro de B00,
+dir B00 con todo los datos oficiales.
+dir B00-01 donde se guardan las actualizaciones generadas por clara 400. 
+Responsable de esto sera POO, el super-profe, los 6 profe hacen lo suyo en cada asignatura y se reunen en P00,para actaulizar B00-01
+
+cuando llamamos a B00 se abre siempre B00-01, en su version mas actual.
+aqui se almacenan todo los datos que el alumno debe aprender.
+
+suerte!!!
+
+
+
+
+creamos los personajes que usan B00-01 
+
+Hola Profesores, los llamamos 'P'. su mision es transmitir B00 a los 'Alumnos' A4
+cada Profesor sera un personaje mas de esta aventura. como tal su identidad real, no la conocemos.
+Como cada asignatura tiene su Profesor, los identificamos P01,...06.
+crear P01,...P06.
+P01,....P06, mantienen actualizada su asignatura y todos juntos forman P00
+crear P00, el super-profe, el unico que puede actualizar B00-01
+
+P00, dentro de P00
+dir 'actualizar B00', contiene los datos a subir a B00-01, version actulizada de B00. 
+dir 'crear Actividades', usando B00-01, para subir a Act00
+
+solo crear los dir.
+
+''A4  los Alumnos'', seran 5
+A01, ...A04 mas A00
+realizan las Act que preparan los profe consultando B00-01
+
+en  A01-04 ordenamos los datos necesarios para cada alumno.
+dir 'mi perfil' el alumno crea su personaje en python, tipo video juego, es solo una idea.
+soy A01 pepe, y te creas, sin dados reales sensibles, create!!
+dir 'mytools' conocimiento y dominio de herramientas. estos son datos reales. y muy utiles.
+dir 'myact', seguimiento de la actividad que descargas de Act00. 
+su estado genera datos en forma permanente.
+
+solo crear los dir.
+
+
+''Act las actividades'' creadas por los P6 para los A4.
+las organizamos en
+dir 'all' todas las actividades.
+dir 'new' las ultimas.
+
+solo crear los dir.
+
+asi tenemos una organizacion de Clara100,
+todo en python3 usando flet.
+
+es muy divertido, esta es mi App para estudiar.!!
+
+correr la app. 
+modificar colores, fuentes, posiciones, aspecto,
+juga un rato, diviertete,
+
+fin Leccion_2.
+
+# si te va, puedes ir aprendiendo git.
+# documentacion de git.
+
+Eso-click continua....
